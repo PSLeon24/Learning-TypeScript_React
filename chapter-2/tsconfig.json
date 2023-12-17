@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "lib": ["es2015"], // specify library files to be included in the compilation
+        "module": "commonjs", // specify module code generation
+        "outDir": "dist", // redirect output structure to the directory
+        "sourceMap": true, // generate corresponding .map file
+        "strict": true, // enable all strict type-checking options
+        "target": "es2015" // specify ECMAScript target version
+    },
+    "include": [
+        "src"
+    ] // include all files in the src directory
+}
